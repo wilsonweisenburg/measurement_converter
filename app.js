@@ -71,6 +71,11 @@ convertB.addEventListener("click", () => {
 
 function convert(x){
      x = document.getElementById("input").value;
-
-
+     var 1st = document.getElementById("unit-select1").selectedIndex;
+     var 2nd = document.getElementById("unit-select2").selectedIndex;
+if(1st=="lb" && 2nd=="kg"){
+    lb_kg(x);
+    var number = document.createElement("p");
+    number.textContent = fnum;
+}
 }
