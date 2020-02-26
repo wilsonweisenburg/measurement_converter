@@ -1,5 +1,13 @@
 #output {
     width: 100px;
     height: 100px;
-    background-color: bisque;
+    background-color: blue;
+}
+
+#input {
+    margin: 50px;
+}
+
+#unit-select1 {
+    margin:
 }
