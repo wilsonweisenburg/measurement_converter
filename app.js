@@ -63,3 +63,14 @@ function g_kg(x){
   var fnum = x/1000;
   return fnum;
 }
+
+let convertB = document.getElementById("convert");
+convertB.addEventListener("click", () => {
+  convert();
+});
+
+function convert(x){
+     x = document.getElementById("input").value;
+
+
+}
