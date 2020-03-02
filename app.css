@@ -21,3 +21,11 @@ label {
 #unit-select2{
     font-size: 15px;
 }
+
+#convert {
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
